@@ -1,4 +1,4 @@
-## agnoster
+## davidxia
 
 A ZSH theme optimized for people who use:
 
@@ -8,7 +8,7 @@ A ZSH theme optimized for people who use:
 
 For Mac users, I highly recommend iTerm 2 + Solarized Dark
 
-![agnoster theme](https://f.cloud.github.com/assets/1765209/255379/452c668e-8c0b-11e2-8a8e-d1d13e57d15f.png)
+![davidxia theme](https://f.cloud.github.com/assets/1765209/255379/452c668e-8c0b-11e2-8a8e-d1d13e57d15f.png)
 
 
 #### Characteristics
