@@ -10,6 +10,9 @@ For Mac users, I highly recommend iTerm 2 + Solarized Dark
 
 ![davidxia theme](https://f.cloud.github.com/assets/1765209/255379/452c668e-8c0b-11e2-8a8e-d1d13e57d15f.png)
 
+### Installation
+
+Save `fish_prompt.fish` as `~/.config/fish/functions/fish_prompt.fish`.
 
 #### Characteristics
 
