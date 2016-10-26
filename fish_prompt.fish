@@ -11,18 +11,18 @@ set -g theme_display_user yes
 # set -g default_user your_normal_user
 
 
-
 set -g current_bg NONE
-set segment_separator \u2B80
-set right_segment_separator \u2B82
-# ===========================
-# Helper methods
-# ===========================
-
 set -g __fish_git_prompt_showdirtystate 'yes'
 set -g __fish_git_prompt_char_dirtystate '±'
 set -g __fish_git_prompt_char_cleanstate ''
 
+set segment_separator \u2B80
+set right_segment_separator \u2B82
+set branch_symbol "⭠"
+
+# ===========================
+# Helper methods
+# ===========================
 function parse_git_dirty
   set -l submodule_syntax
   set submodule_syntax "--ignore-submodules=dirty"
@@ -158,7 +158,6 @@ function prompt_git -d "Display the actual git state"
       set -l branch (command git show-ref --head -s --abbrev |head -n1 2> /dev/null)
       set ref "➦ $branch "
     end
-    set branch_symbol "⭠"
     set -l branch (echo $ref | sed  "s-refs/heads/-$branch_symbol -")
     if [ "$dirty" != "" ]
       prompt_segment yellow black "$branch $dirty"
