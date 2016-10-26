@@ -1,12 +1,17 @@
 ## davidxia
 
-A ZSH theme optimized for people who use:
+A fish shell theme optimized for people who use:
 
 * Solarized
 * Git
-* Unicode-compatible fonts and terminals (I use iTerm2 + Menlo)
+* Unicode-compatible fonts and terminals (I use Monaco for Powerline)
 
-For Mac users, I highly recommend iTerm 2 + Solarized Dark
+For Mac users, I highly recommend iTerm2 + Solarized Dark.
+
+*On Arch Linux, the characters for parts of the prompt are different. I had to
+change `segment_separator` and `right_segment_separator` to `\uE0B0` and `\uE0B2`,
+respectively. You can download the Monaco for Powerline font
+[here][aur-monaco-powerline-font-fixed-git].*
 
 ![davidxia theme](https://f.cloud.github.com/assets/1765209/255379/452c668e-8c0b-11e2-8a8e-d1d13e57d15f.png)
 
@@ -27,3 +32,5 @@ Save `fish_prompt.fish` as `~/.config/fish/functions/fish_prompt.fish`.
 
 
 Ported from https://gist.github.com/agnoster/3712874.
+
+  [aur-monaco-powerline-font-fixed-git][https://aur.archlinux.org/packages/monaco-powerline-font-fixed-git/]
